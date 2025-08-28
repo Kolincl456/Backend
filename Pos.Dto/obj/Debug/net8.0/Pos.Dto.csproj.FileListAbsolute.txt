@@ -1,0 +1,17 @@
+C:\Users\USUARIO\Desktop\Codigos\Backend\Pos.Dto\bin\Debug\net8.0\Pos.Dto.deps.json
+C:\Users\USUARIO\Desktop\Codigos\Backend\Pos.Dto\bin\Debug\net8.0\Pos.Dto.dll
+C:\Users\USUARIO\Desktop\Codigos\Backend\Pos.Dto\bin\Debug\net8.0\Pos.Dto.pdb
+C:\Users\USUARIO\Desktop\Codigos\Backend\Pos.Dto\bin\Debug\net8.0\Pos.Model.dll
+C:\Users\USUARIO\Desktop\Codigos\Backend\Pos.Dto\bin\Debug\net8.0\Pos.Repository.dll
+C:\Users\USUARIO\Desktop\Codigos\Backend\Pos.Dto\bin\Debug\net8.0\Pos.Repository.pdb
+C:\Users\USUARIO\Desktop\Codigos\Backend\Pos.Dto\bin\Debug\net8.0\Pos.Model.pdb
+C:\Users\USUARIO\Desktop\Codigos\Backend\Pos.Dto\obj\Debug\net8.0\Pos.Dto.csproj.AssemblyReference.cache
+C:\Users\USUARIO\Desktop\Codigos\Backend\Pos.Dto\obj\Debug\net8.0\Pos.Dto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\Desktop\Codigos\Backend\Pos.Dto\obj\Debug\net8.0\Pos.Dto.AssemblyInfoInputs.cache
+C:\Users\USUARIO\Desktop\Codigos\Backend\Pos.Dto\obj\Debug\net8.0\Pos.Dto.AssemblyInfo.cs
+C:\Users\USUARIO\Desktop\Codigos\Backend\Pos.Dto\obj\Debug\net8.0\Pos.Dto.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Desktop\Codigos\Backend\Pos.Dto\obj\Debug\net8.0\Pos.Dto.csproj.Up2Date
+C:\Users\USUARIO\Desktop\Codigos\Backend\Pos.Dto\obj\Debug\net8.0\Pos.Dto.dll
+C:\Users\USUARIO\Desktop\Codigos\Backend\Pos.Dto\obj\Debug\net8.0\refint\Pos.Dto.dll
+C:\Users\USUARIO\Desktop\Codigos\Backend\Pos.Dto\obj\Debug\net8.0\Pos.Dto.pdb
+C:\Users\USUARIO\Desktop\Codigos\Backend\Pos.Dto\obj\Debug\net8.0\ref\Pos.Dto.dll

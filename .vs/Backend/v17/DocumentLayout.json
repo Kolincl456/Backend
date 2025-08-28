@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\USUARIO\\Desktop\\Codigos\\Backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USUARIO\\Desktop\\Codigos\\Backend\\Pos.Model\\Migrations\\20250828190253_Migrar-Modelo-Negocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Pos.Model\\Migrations\\20250828190253_Migrar-Modelo-Negocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6410C6A8-65E4-467F-BE32-2B08721099E9}|Pos.Model\\Pos.Model.csproj|c:\\users\\usuario\\desktop\\codigos\\backend\\pos.model\\context\\poscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6410C6A8-65E4-467F-BE32-2B08721099E9}|Pos.Model\\Pos.Model.csproj|solutionrelative:pos.model\\context\\poscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6410C6A8-65E4-467F-BE32-2B08721099E9}|Pos.Model\\Pos.Model.csproj|c:\\users\\usuario\\desktop\\codigos\\backend\\pos.model\\models\\negocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6410C6A8-65E4-467F-BE32-2B08721099E9}|Pos.Model\\Pos.Model.csproj|solutionrelative:pos.model\\models\\negocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6410C6A8-65E4-467F-BE32-2B08721099E9}|Pos.Model\\Pos.Model.csproj|c:\\users\\usuario\\desktop\\codigos\\backend\\pos.model\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6410C6A8-65E4-467F-BE32-2B08721099E9}|Pos.Model\\Pos.Model.csproj|solutionrelative:pos.model\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6410C6A8-65E4-467F-BE32-2B08721099E9}|Pos.Model\\Pos.Model.csproj|c:\\users\\usuario\\desktop\\codigos\\backend\\pos.model\\models\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6410C6A8-65E4-467F-BE32-2B08721099E9}|Pos.Model\\Pos.Model.csproj|solutionrelative:pos.model\\models\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AE80C50-5DB6-465D-897E-BB624EB03F15}|Pos.Api\\Pos.Api.csproj|c:\\users\\usuario\\desktop\\codigos\\backend\\pos.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AE80C50-5DB6-465D-897E-BB624EB03F15}|Pos.Api\\Pos.Api.csproj|solutionrelative:pos.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AE80C50-5DB6-465D-897E-BB624EB03F15}|Pos.Api\\Pos.Api.csproj|c:\\users\\usuario\\desktop\\codigos\\backend\\pos.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0AE80C50-5DB6-465D-897E-BB624EB03F15}|Pos.Api\\Pos.Api.csproj|solutionrelative:pos.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20250828190253_Migrar-Modelo-Negocio.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Codigos\\Backend\\Pos.Model\\Migrations\\20250828190253_Migrar-Modelo-Negocio.cs",
+              "RelativeDocumentMoniker": "Pos.Model\\Migrations\\20250828190253_Migrar-Modelo-Negocio.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Codigos\\Backend\\Pos.Model\\Migrations\\20250828190253_Migrar-Modelo-Negocio.cs",
+              "RelativeToolTip": "Pos.Model\\Migrations\\20250828190253_Migrar-Modelo-Negocio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T19:02:53.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Negocio.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Codigos\\Backend\\Pos.Model\\Models\\Negocio.cs",
+              "RelativeDocumentMoniker": "Pos.Model\\Models\\Negocio.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Codigos\\Backend\\Pos.Model\\Models\\Negocio.cs",
+              "RelativeToolTip": "Pos.Model\\Models\\Negocio.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAiwBYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T18:49:25.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Codigos\\Backend\\Pos.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "Pos.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Codigos\\Backend\\Pos.Api\\appsettings.json",
+              "RelativeToolTip": "Pos.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-28T18:43:28.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Codigos\\Backend\\Pos.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Pos.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Codigos\\Backend\\Pos.Api\\Program.cs",
+              "RelativeToolTip": "Pos.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T18:43:25.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PosContext.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Codigos\\Backend\\Pos.Model\\Context\\PosContext.cs",
+              "RelativeDocumentMoniker": "Pos.Model\\Context\\PosContext.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Codigos\\Backend\\Pos.Model\\Context\\PosContext.cs",
+              "RelativeToolTip": "Pos.Model\\Context\\PosContext.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAzwHMAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T18:32:41.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Rol.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Codigos\\Backend\\Pos.Model\\Models\\Rol.cs",
+              "RelativeDocumentMoniker": "Pos.Model\\Models\\Rol.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Codigos\\Backend\\Pos.Model\\Models\\Rol.cs",
+              "RelativeToolTip": "Pos.Model\\Models\\Rol.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T18:28:58.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Codigos\\Backend\\Pos.Model\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "Pos.Model\\Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Codigos\\Backend\\Pos.Model\\Models\\Usuario.cs",
+              "RelativeToolTip": "Pos.Model\\Models\\Usuario.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T18:27:18.615Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

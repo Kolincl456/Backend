@@ -1,0 +1,12 @@
+C:\Users\USUARIO\Desktop\Codigos\Backend\Pos.Model\bin\Debug\net8.0\Pos.Model.deps.json
+C:\Users\USUARIO\Desktop\Codigos\Backend\Pos.Model\bin\Debug\net8.0\Pos.Model.dll
+C:\Users\USUARIO\Desktop\Codigos\Backend\Pos.Model\bin\Debug\net8.0\Pos.Model.pdb
+C:\Users\USUARIO\Desktop\Codigos\Backend\Pos.Model\obj\Debug\net8.0\Pos.Model.csproj.AssemblyReference.cache
+C:\Users\USUARIO\Desktop\Codigos\Backend\Pos.Model\obj\Debug\net8.0\Pos.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\Desktop\Codigos\Backend\Pos.Model\obj\Debug\net8.0\Pos.Model.AssemblyInfoInputs.cache
+C:\Users\USUARIO\Desktop\Codigos\Backend\Pos.Model\obj\Debug\net8.0\Pos.Model.AssemblyInfo.cs
+C:\Users\USUARIO\Desktop\Codigos\Backend\Pos.Model\obj\Debug\net8.0\Pos.Model.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Desktop\Codigos\Backend\Pos.Model\obj\Debug\net8.0\Pos.Model.dll
+C:\Users\USUARIO\Desktop\Codigos\Backend\Pos.Model\obj\Debug\net8.0\refint\Pos.Model.dll
+C:\Users\USUARIO\Desktop\Codigos\Backend\Pos.Model\obj\Debug\net8.0\Pos.Model.pdb
+C:\Users\USUARIO\Desktop\Codigos\Backend\Pos.Model\obj\Debug\net8.0\ref\Pos.Model.dll
