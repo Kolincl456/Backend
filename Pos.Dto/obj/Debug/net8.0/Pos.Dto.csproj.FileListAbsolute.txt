@@ -15,3 +15,4 @@ C:\Users\USUARIO\Desktop\Codigos\Backend\Pos.Dto\obj\Debug\net8.0\Pos.Dto.dll
 C:\Users\USUARIO\Desktop\Codigos\Backend\Pos.Dto\obj\Debug\net8.0\refint\Pos.Dto.dll
 C:\Users\USUARIO\Desktop\Codigos\Backend\Pos.Dto\obj\Debug\net8.0\Pos.Dto.pdb
 C:\Users\USUARIO\Desktop\Codigos\Backend\Pos.Dto\obj\Debug\net8.0\ref\Pos.Dto.dll
+C:\Users\USUARIO\Desktop\Codigos\Backend\Pos.Dto\obj\Debug\net8.0\Pos.Dto.sourcelink.json

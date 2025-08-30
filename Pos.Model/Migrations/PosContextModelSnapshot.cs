@@ -22,6 +22,87 @@ namespace Pos.Model.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
+            modelBuilder.Entity("Pos.Model.Models.Categoria", b =>
+                {
+                    b.Property<int>("IdCategoria")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("IdCategoria"));
+
+                    b.Property<string>("Descripcion")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .IsUnicode(false)
+                        .HasColumnType("character varying(50)");
+
+                    b.Property<string>("Estado")
+                        .IsRequired()
+                        .HasMaxLength(8)
+                        .IsUnicode(false)
+                        .HasColumnType("character varying(8)");
+
+                    b.Property<DateTime>("FechaRegistro")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("timestamp with time zone")
+                        .HasDefaultValueSql("NOW()");
+
+                    b.HasKey("IdCategoria");
+
+                    b.HasIndex("Descripcion")
+                        .IsUnique();
+
+                    b.ToTable("Categorias");
+                });
+
+            modelBuilder.Entity("Pos.Model.Models.DetalleVenta", b =>
+                {
+                    b.Property<int>("IdDetalleVenta")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("IdDetalleVenta"));
+
+                    b.Property<int>("Cantidad")
+                        .ValueGeneratedOnAdd()
+                        .IsUnicode(false)
+                        .HasColumnType("integer")
+                        .HasDefaultValue(1);
+
+                    b.Property<decimal>("Descuento")
+                        .IsUnicode(false)
+                        .HasColumnType("numeric");
+
+                    b.Property<int>("IdProducto")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("IdVenta")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("NombreProducto")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .IsUnicode(false)
+                        .HasColumnType("character varying(50)");
+
+                    b.Property<decimal>("Precio")
+                        .HasPrecision(18, 2)
+                        .IsUnicode(false)
+                        .HasColumnType("numeric(18,2)");
+
+                    b.Property<decimal>("Total")
+                        .IsUnicode(false)
+                        .HasColumnType("numeric");
+
+                    b.HasKey("IdDetalleVenta");
+
+                    b.HasIndex("IdProducto");
+
+                    b.HasIndex("IdVenta");
+
+                    b.ToTable("DetallesVenta");
+                });
+
             modelBuilder.Entity("Pos.Model.Models.Negocio", b =>
                 {
                     b.Property<int>("IdNegocio")
@@ -81,6 +162,102 @@ namespace Pos.Model.Migrations
                     b.HasKey("IdNegocio");
 
                     b.ToTable("Negocios");
+                });
+
+            modelBuilder.Entity("Pos.Model.Models.NumeroDocumento", b =>
+                {
+                    b.Property<int>("IdNumeroDocumento")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("IdNumeroDocumento"));
+
+                    b.Property<string>("Documento")
+                        .IsRequired()
+                        .HasMaxLength(10)
+                        .IsUnicode(false)
+                        .HasColumnType("character varying(10)");
+
+                    b.Property<DateTime>("FechaRegistro")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("timestamp with time zone")
+                        .HasDefaultValueSql("NOW()");
+
+                    b.HasKey("IdNumeroDocumento");
+
+                    b.HasIndex("Documento")
+                        .IsUnique();
+
+                    b.ToTable("NumeroDocumentos");
+                });
+
+            modelBuilder.Entity("Pos.Model.Models.Producto", b =>
+                {
+                    b.Property<int>("IdProducto")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("IdProducto"));
+
+                    b.Property<int?>("CategoriaIdCategoria")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("CodigoBarra")
+                        .IsRequired()
+                        .HasMaxLength(30)
+                        .IsUnicode(false)
+                        .HasColumnType("character varying(30)");
+
+                    b.Property<string>("Descripcion")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .IsUnicode(false)
+                        .HasColumnType("character varying(50)");
+
+                    b.Property<string>("Estado")
+                        .IsRequired()
+                        .HasMaxLength(8)
+                        .IsUnicode(false)
+                        .HasColumnType("character varying(8)");
+
+                    b.Property<DateTime>("FechaRegistro")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("timestamp with time zone")
+                        .HasDefaultValueSql("NOW()");
+
+                    b.Property<int>("IdCategoria")
+                        .HasColumnType("integer");
+
+                    b.Property<decimal>("PrecioVenta")
+                        .HasPrecision(18, 2)
+                        .IsUnicode(false)
+                        .HasColumnType("numeric(18,2)");
+
+                    b.Property<int>("Stock")
+                        .ValueGeneratedOnAdd()
+                        .IsUnicode(false)
+                        .HasColumnType("integer")
+                        .HasDefaultValue(0);
+
+                    b.Property<int>("StockMinimo")
+                        .ValueGeneratedOnAdd()
+                        .IsUnicode(false)
+                        .HasColumnType("integer")
+                        .HasDefaultValue(5);
+
+                    b.HasKey("IdProducto");
+
+                    b.HasIndex("CategoriaIdCategoria");
+
+                    b.HasIndex("CodigoBarra")
+                        .IsUnique();
+
+                    b.HasIndex("Descripcion")
+                        .IsUnique();
+
+                    b.HasIndex("IdCategoria");
+
+                    b.ToTable("Productos");
                 });
 
             modelBuilder.Entity("Pos.Model.Models.Rol", b =>
@@ -164,6 +341,110 @@ namespace Pos.Model.Migrations
                     b.ToTable("Usuarios");
                 });
 
+            modelBuilder.Entity("Pos.Model.Models.Venta", b =>
+                {
+                    b.Property<int>("IdVenta")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("IdVenta"));
+
+                    b.Property<string>("Cliente")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .IsUnicode(false)
+                        .HasColumnType("character varying(50)");
+
+                    b.Property<decimal>("Descuento")
+                        .ValueGeneratedOnAdd()
+                        .HasPrecision(4, 2)
+                        .IsUnicode(false)
+                        .HasColumnType("numeric(4,2)")
+                        .HasDefaultValue(0m);
+
+                    b.Property<string>("Dni")
+                        .IsRequired()
+                        .HasMaxLength(20)
+                        .IsUnicode(false)
+                        .HasColumnType("character varying(20)");
+
+                    b.Property<string>("Estado")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Factura")
+                        .HasMaxLength(10)
+                        .IsUnicode(false)
+                        .HasColumnType("character varying(10)");
+
+                    b.Property<DateOnly>("Fecha")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("date")
+                        .HasDefaultValueSql("NOW()");
+
+                    b.Property<DateOnly?>("FechaAnulada")
+                        .HasColumnType("date");
+
+                    b.Property<int>("IdUsuario")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("Motivo")
+                        .HasColumnType("TEXT");
+
+                    b.Property<decimal>("Total")
+                        .ValueGeneratedOnAdd()
+                        .HasPrecision(18, 2)
+                        .IsUnicode(false)
+                        .HasColumnType("numeric(18,2)")
+                        .HasDefaultValue(0m);
+
+                    b.Property<int?>("UsuarioAnula")
+                        .HasColumnType("integer");
+
+                    b.HasKey("IdVenta");
+
+                    b.HasIndex("Factura")
+                        .IsUnique();
+
+                    b.HasIndex("IdUsuario");
+
+                    b.ToTable("Ventas");
+                });
+
+            modelBuilder.Entity("Pos.Model.Models.DetalleVenta", b =>
+                {
+                    b.HasOne("Pos.Model.Models.Producto", "Producto")
+                        .WithMany()
+                        .HasForeignKey("IdProducto")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("Pos.Model.Models.Venta", "Venta")
+                        .WithMany("DetalleVentas")
+                        .HasForeignKey("IdVenta")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Producto");
+
+                    b.Navigation("Venta");
+                });
+
+            modelBuilder.Entity("Pos.Model.Models.Producto", b =>
+                {
+                    b.HasOne("Pos.Model.Models.Categoria", null)
+                        .WithMany("Productos")
+                        .HasForeignKey("CategoriaIdCategoria");
+
+                    b.HasOne("Pos.Model.Models.Categoria", "Categoria")
+                        .WithMany()
+                        .HasForeignKey("IdCategoria")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("Categoria");
+                });
+
             modelBuilder.Entity("Pos.Model.Models.Usuario", b =>
                 {
                     b.HasOne("Pos.Model.Models.Rol", "Rol")
@@ -175,9 +456,35 @@ namespace Pos.Model.Migrations
                     b.Navigation("Rol");
                 });
 
+            modelBuilder.Entity("Pos.Model.Models.Venta", b =>
+                {
+                    b.HasOne("Pos.Model.Models.Usuario", "Usuario")
+                        .WithMany("Ventas")
+                        .HasForeignKey("IdUsuario")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Usuario");
+                });
+
+            modelBuilder.Entity("Pos.Model.Models.Categoria", b =>
+                {
+                    b.Navigation("Productos");
+                });
+
             modelBuilder.Entity("Pos.Model.Models.Rol", b =>
                 {
                     b.Navigation("Usuarios");
+                });
+
+            modelBuilder.Entity("Pos.Model.Models.Usuario", b =>
+                {
+                    b.Navigation("Ventas");
+                });
+
+            modelBuilder.Entity("Pos.Model.Models.Venta", b =>
+                {
+                    b.Navigation("DetalleVentas");
                 });
 #pragma warning restore 612, 618
         }

@@ -1,0 +1,19 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Pos.Model.Models
+{
+    public class NumeroDocumento
+    {
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        public int IdNumeroDocumento { get; set; }
+        public string Documento { get; set; } = string.Empty;
+        public DateTime FechaRegistro { get; private set; }
+    }
+}

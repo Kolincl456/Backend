@@ -13,3 +13,4 @@ C:\Users\USUARIO\Desktop\Codigos\Backend\Pos.Repository\obj\Debug\net8.0\Pos.Rep
 C:\Users\USUARIO\Desktop\Codigos\Backend\Pos.Repository\obj\Debug\net8.0\refint\Pos.Repository.dll
 C:\Users\USUARIO\Desktop\Codigos\Backend\Pos.Repository\obj\Debug\net8.0\Pos.Repository.pdb
 C:\Users\USUARIO\Desktop\Codigos\Backend\Pos.Repository\obj\Debug\net8.0\ref\Pos.Repository.dll
+C:\Users\USUARIO\Desktop\Codigos\Backend\Pos.Repository\obj\Debug\net8.0\Pos.Repository.sourcelink.json

@@ -17,3 +17,4 @@ C:\Users\USUARIO\Desktop\Codigos\Backend\Pos.Service\obj\Debug\net8.0\Pos.Servic
 C:\Users\USUARIO\Desktop\Codigos\Backend\Pos.Service\obj\Debug\net8.0\refint\Pos.Service.dll
 C:\Users\USUARIO\Desktop\Codigos\Backend\Pos.Service\obj\Debug\net8.0\Pos.Service.pdb
 C:\Users\USUARIO\Desktop\Codigos\Backend\Pos.Service\obj\Debug\net8.0\ref\Pos.Service.dll
+C:\Users\USUARIO\Desktop\Codigos\Backend\Pos.Service\obj\Debug\net8.0\Pos.Service.sourcelink.json

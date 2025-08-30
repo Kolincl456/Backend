@@ -142,3 +142,4 @@ C:\Users\USUARIO\Desktop\Codigos\Backend\Pos.Api\obj\Debug\net8.0\refint\Pos.Api
 C:\Users\USUARIO\Desktop\Codigos\Backend\Pos.Api\obj\Debug\net8.0\Pos.Api.pdb
 C:\Users\USUARIO\Desktop\Codigos\Backend\Pos.Api\obj\Debug\net8.0\Pos.Api.genruntimeconfig.cache
 C:\Users\USUARIO\Desktop\Codigos\Backend\Pos.Api\obj\Debug\net8.0\ref\Pos.Api.dll
+C:\Users\USUARIO\Desktop\Codigos\Backend\Pos.Api\obj\Debug\net8.0\Pos.Api.sourcelink.json

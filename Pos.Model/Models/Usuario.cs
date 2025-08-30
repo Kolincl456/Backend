@@ -22,7 +22,7 @@ namespace Pos.Model.Models
         public string Telefono { get; set; } = string.Empty;
         public string Estado { get; set; } = string.Empty;
         public DateTime FechaRegistro { get; private set; }
-    
+        public virtual ICollection<Venta> Ventas { get; set; } = new List<Venta>();
     
     }
 }
