@@ -22,6 +22,6 @@ namespace Pos.Dto.Dto
         public DateOnly? FechaAnulada { get; set; }
         public string? Motivo { get; set; }
         public int? UsuarioAnula { get; set; }
-        public virtual ICollection<DetalleVentaDto>? DetalleVentas { get; set; }
+        public virtual List<DetalleVentaDto>? DetalleVentas { get; set; }
     }
 }

@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\USUARIO\\Desktop\\Codigos\\Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{61880A2E-B8AB-4B8C-AC4B-FEB6A4D53792}|Pos.Dto\\Pos.Dto.csproj|c:\\users\\usuario\\desktop\\codigos\\backend\\pos.dto\\dto\\numerodocumentodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61880A2E-B8AB-4B8C-AC4B-FEB6A4D53792}|Pos.Dto\\Pos.Dto.csproj|solutionrelative:pos.dto\\dto\\numerodocumentodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{61880A2E-B8AB-4B8C-AC4B-FEB6A4D53792}|Pos.Dto\\Pos.Dto.csproj|c:\\users\\usuario\\desktop\\codigos\\backend\\pos.dto\\validators\\validardetalleventadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61880A2E-B8AB-4B8C-AC4B-FEB6A4D53792}|Pos.Dto\\Pos.Dto.csproj|solutionrelative:pos.dto\\validators\\validardetalleventadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6410C6A8-65E4-467F-BE32-2B08721099E9}|Pos.Model\\Pos.Model.csproj|c:\\users\\usuario\\desktop\\codigos\\backend\\pos.model\\models\\numerodocumento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6410C6A8-65E4-467F-BE32-2B08721099E9}|Pos.Model\\Pos.Model.csproj|solutionrelative:pos.model\\models\\numerodocumento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{61880A2E-B8AB-4B8C-AC4B-FEB6A4D53792}|Pos.Dto\\Pos.Dto.csproj|c:\\users\\usuario\\desktop\\codigos\\backend\\pos.dto\\validators\\validarventadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61880A2E-B8AB-4B8C-AC4B-FEB6A4D53792}|Pos.Dto\\Pos.Dto.csproj|solutionrelative:pos.dto\\validators\\validarventadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "NumeroDocumento.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Codigos\\Backend\\Pos.Model\\Models\\NumeroDocumento.cs",
-              "RelativeDocumentMoniker": "Pos.Model\\Models\\NumeroDocumento.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Codigos\\Backend\\Pos.Model\\Models\\NumeroDocumento.cs",
-              "RelativeToolTip": "Pos.Model\\Models\\NumeroDocumento.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ValidarDetalleVentaDto.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Codigos\\Backend\\Pos.Dto\\Validators\\ValidarDetalleVentaDto.cs",
+              "RelativeDocumentMoniker": "Pos.Dto\\Validators\\ValidarDetalleVentaDto.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Codigos\\Backend\\Pos.Dto\\Validators\\ValidarDetalleVentaDto.cs",
+              "RelativeToolTip": "Pos.Dto\\Validators\\ValidarDetalleVentaDto.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACMAAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-30T01:08:41.061Z",
+              "WhenOpened": "2025-08-30T17:30:16.71Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "NumeroDocumentoDto.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Codigos\\Backend\\Pos.Dto\\Dto\\NumeroDocumentoDto.cs",
-              "RelativeDocumentMoniker": "Pos.Dto\\Dto\\NumeroDocumentoDto.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Codigos\\Backend\\Pos.Dto\\Dto\\NumeroDocumentoDto.cs",
-              "RelativeToolTip": "Pos.Dto\\Dto\\NumeroDocumentoDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ValidarVentaDto.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Codigos\\Backend\\Pos.Dto\\Validators\\ValidarVentaDto.cs",
+              "RelativeDocumentMoniker": "Pos.Dto\\Validators\\ValidarVentaDto.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Codigos\\Backend\\Pos.Dto\\Validators\\ValidarVentaDto.cs",
+              "RelativeToolTip": "Pos.Dto\\Validators\\ValidarVentaDto.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAkwDAAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-30T01:08:22.554Z",
+              "WhenOpened": "2025-08-30T17:29:58.223Z",
               "EditorCaption": ""
             }
           ]
