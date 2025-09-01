@@ -5,10 +5,14 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Identity;
 
 namespace Pos.Model.Models
 {
-    public class Usuario
+    /*
+     * Va agregar uno campos adicionales denominadao email y clave
+     */
+    public class Usuario :IdentityUser<int>
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]

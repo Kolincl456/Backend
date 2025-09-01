@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Pos.Model")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4bcc3253eb4be11e7aa6e2df282fb441e1bac177")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9b334d97b2d141ec26bf7448b1df03db11a9132c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Pos.Model")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Pos.Model")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
