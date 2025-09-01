@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\USUARIO\\Desktop\\Codigos\\Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2C595F08-B28A-412A-9DC3-541CE77C3208}|Pos.Service\\Pos.Service.csproj|c:\\users\\usuario\\desktop\\codigos\\backend\\pos.service\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C595F08-B28A-412A-9DC3-541CE77C3208}|Pos.Service\\Pos.Service.csproj|solutionrelative:pos.service\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C38B1244-2789-4646-A07F-75C09C0ABEF4}|Pos.Repository\\Pos.Repository.csproj|c:\\users\\usuario\\desktop\\codigos\\backend\\pos.repository\\repository\\categoria_repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C38B1244-2789-4646-A07F-75C09C0ABEF4}|Pos.Repository\\Pos.Repository.csproj|solutionrelative:pos.repository\\repository\\categoria_repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6410C6A8-65E4-467F-BE32-2B08721099E9}|Pos.Model\\Pos.Model.csproj|c:\\users\\usuario\\desktop\\codigos\\backend\\pos.model\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6410C6A8-65E4-467F-BE32-2B08721099E9}|Pos.Model\\Pos.Model.csproj|solutionrelative:pos.model\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C38B1244-2789-4646-A07F-75C09C0ABEF4}|Pos.Repository\\Pos.Repository.csproj|c:\\users\\usuario\\desktop\\codigos\\backend\\pos.repository\\repository\\rol_repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C38B1244-2789-4646-A07F-75C09C0ABEF4}|Pos.Repository\\Pos.Repository.csproj|solutionrelative:pos.repository\\repository\\rol_repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C38B1244-2789-4646-A07F-75C09C0ABEF4}|Pos.Repository\\Pos.Repository.csproj|c:\\users\\usuario\\desktop\\codigos\\backend\\pos.repository\\interface\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C38B1244-2789-4646-A07F-75C09C0ABEF4}|Pos.Repository\\Pos.Repository.csproj|solutionrelative:pos.repository\\interface\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,26 +27,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Codigos\\Backend\\Pos.Model\\Models\\Usuario.cs",
-              "RelativeDocumentMoniker": "Pos.Model\\Models\\Usuario.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Codigos\\Backend\\Pos.Model\\Models\\Usuario.cs",
-              "RelativeToolTip": "Pos.Model\\Models\\Usuario.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAABCAAAAAAAAAA==",
+              "Title": "Rol_Repository.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Codigos\\Backend\\Pos.Repository\\Repository\\Rol_Repository.cs",
+              "RelativeDocumentMoniker": "Pos.Repository\\Repository\\Rol_Repository.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Codigos\\Backend\\Pos.Repository\\Repository\\Rol_Repository.cs",
+              "RelativeToolTip": "Pos.Repository\\Repository\\Rol_Repository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-01T19:36:45.51Z"
+              "WhenOpened": "2025-09-01T21:30:35.544Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "mappingProfile.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Codigos\\Backend\\Pos.Service\\Mappings\\mappingProfile.cs",
-              "RelativeDocumentMoniker": "Pos.Service\\Mappings\\mappingProfile.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Codigos\\Backend\\Pos.Service\\Mappings\\mappingProfile.cs",
-              "RelativeToolTip": "Pos.Service\\Mappings\\mappingProfile.cs",
-              "ViewState": "AgIAAEcBAAAAAAAAAAAkwEsBAAA2AAAAAAAAAA==",
+              "Title": "Categoria_Repository.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Codigos\\Backend\\Pos.Repository\\Repository\\Categoria_Repository.cs",
+              "RelativeDocumentMoniker": "Pos.Repository\\Repository\\Categoria_Repository.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Codigos\\Backend\\Pos.Repository\\Repository\\Categoria_Repository.cs",
+              "RelativeToolTip": "Pos.Repository\\Repository\\Categoria_Repository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-01T19:16:29.93Z",
+              "WhenOpened": "2025-09-01T21:27:39.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Codigos\\Backend\\Pos.Repository\\Interface\\IRepository.cs",
+              "RelativeDocumentMoniker": "Pos.Repository\\Interface\\IRepository.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Codigos\\Backend\\Pos.Repository\\Interface\\IRepository.cs",
+              "RelativeToolTip": "Pos.Repository\\Interface\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T20:25:53.56Z",
               "EditorCaption": ""
             }
           ]

@@ -1,5 +1,7 @@
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 using Pos.Model.Context;
+using Pos.Repository.Repository;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -21,6 +23,15 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+// Registrar AutoMapper
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
+//Registro de repositorios con sus interfaces
+builder.Services.AddScoped<Rol_Repository>();
+builder.Services.AddScoped<Categoria_Repository>();
+builder.Services.AddScoped<Producto_Repository>();
+
 
 var app = builder.Build();
 
