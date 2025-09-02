@@ -1,6 +1,9 @@
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Pos.Model.Context;
+using Pos.Model.Models;
+using Pos.Repository.Interface;
 using Pos.Repository.Repository;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -24,6 +27,11 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+//Configuración de ASP.NET Identity
+builder.Services.AddIdentity<Usuario, IdentityRole<int>>().AddEntityFrameworkStores<PosContext>().AddDefaultTokenProviders();
+    ;
+    
+
 // Registrar AutoMapper
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
@@ -31,7 +39,10 @@ builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 builder.Services.AddScoped<Rol_Repository>();
 builder.Services.AddScoped<Categoria_Repository>();
 builder.Services.AddScoped<Producto_Repository>();
-
+builder.Services.AddScoped<INegocio_Repository, Negocio_Repository>();
+builder.Services.AddScoped<IDocumento_Repository, Documento_Repository>();
+builder.Services.AddScoped<IUsuario_Repository, Usuario_Repository>();
+builder.Services.AddScoped<IVenta_Repository, Venta_Repository>();
 
 var app = builder.Build();
 
