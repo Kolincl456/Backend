@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\USUARIO\\Desktop\\Codigos\\Backend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0AE80C50-5DB6-465D-897E-BB624EB03F15}|Pos.Api\\Pos.Api.csproj|c:\\users\\usuario\\desktop\\codigos\\backend\\pos.api\\controllers\\rolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AE80C50-5DB6-465D-897E-BB624EB03F15}|Pos.Api\\Pos.Api.csproj|solutionrelative:pos.api\\controllers\\rolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0AE80C50-5DB6-465D-897E-BB624EB03F15}|Pos.Api\\Pos.Api.csproj|c:\\users\\usuario\\desktop\\codigos\\backend\\pos.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0AE80C50-5DB6-465D-897E-BB624EB03F15}|Pos.Api\\Pos.Api.csproj|solutionrelative:pos.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C38B1244-2789-4646-A07F-75C09C0ABEF4}|Pos.Repository\\Pos.Repository.csproj|c:\\users\\usuario\\desktop\\codigos\\backend\\pos.repository\\interface\\iventa_repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C38B1244-2789-4646-A07F-75C09C0ABEF4}|Pos.Repository\\Pos.Repository.csproj|solutionrelative:pos.repository\\interface\\iventa_repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2C595F08-B28A-412A-9DC3-541CE77C3208}|Pos.Service\\Pos.Service.csproj|c:\\users\\usuario\\desktop\\codigos\\backend\\pos.service\\service\\rol_service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C595F08-B28A-412A-9DC3-541CE77C3208}|Pos.Service\\Pos.Service.csproj|solutionrelative:pos.service\\service\\rol_service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C38B1244-2789-4646-A07F-75C09C0ABEF4}|Pos.Repository\\Pos.Repository.csproj|c:\\users\\usuario\\desktop\\codigos\\backend\\pos.repository\\repository\\venta_repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C38B1244-2789-4646-A07F-75C09C0ABEF4}|Pos.Repository\\Pos.Repository.csproj|solutionrelative:pos.repository\\repository\\venta_repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2C595F08-B28A-412A-9DC3-541CE77C3208}|Pos.Service\\Pos.Service.csproj|c:\\users\\usuario\\desktop\\codigos\\backend\\pos.service\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C595F08-B28A-412A-9DC3-541CE77C3208}|Pos.Service\\Pos.Service.csproj|solutionrelative:pos.service\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6410C6A8-65E4-467F-BE32-2B08721099E9}|Pos.Model\\Pos.Model.csproj|c:\\users\\usuario\\desktop\\codigos\\backend\\pos.model\\models\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6410C6A8-65E4-467F-BE32-2B08721099E9}|Pos.Model\\Pos.Model.csproj|solutionrelative:pos.model\\models\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C595F08-B28A-412A-9DC3-541CE77C3208}|Pos.Service\\Pos.Service.csproj|c:\\users\\usuario\\desktop\\codigos\\backend\\pos.service\\interface\\iservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C595F08-B28A-412A-9DC3-541CE77C3208}|Pos.Service\\Pos.Service.csproj|solutionrelative:pos.service\\interface\\iservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +34,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Venta_Repository.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Codigos\\Backend\\Pos.Repository\\Repository\\Venta_Repository.cs",
-              "RelativeDocumentMoniker": "Pos.Repository\\Repository\\Venta_Repository.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Codigos\\Backend\\Pos.Repository\\Repository\\Venta_Repository.cs",
-              "RelativeToolTip": "Pos.Repository\\Repository\\Venta_Repository.cs",
-              "ViewState": "AgIAAHIAAAAAAAAAAAAkwIsAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T02:02:11.109Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "IVenta_Repository.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Codigos\\Backend\\Pos.Repository\\Interface\\IVenta_Repository.cs",
-              "RelativeDocumentMoniker": "Pos.Repository\\Interface\\IVenta_Repository.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Codigos\\Backend\\Pos.Repository\\Interface\\IVenta_Repository.cs",
-              "RelativeToolTip": "Pos.Repository\\Interface\\IVenta_Repository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T01:56:55.168Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Codigos\\Backend\\Pos.Api\\Program.cs",
               "RelativeDocumentMoniker": "Pos.Api\\Program.cs",
               "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Codigos\\Backend\\Pos.Api\\Program.cs",
               "RelativeToolTip": "Pos.Api\\Program.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAAAB4AAABeAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowCYAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T01:46:25.815Z",
+              "WhenOpened": "2025-09-02T04:17:43.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Rol.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Codigos\\Backend\\Pos.Model\\Models\\Rol.cs",
+              "RelativeDocumentMoniker": "Pos.Model\\Models\\Rol.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Codigos\\Backend\\Pos.Model\\Models\\Rol.cs",
+              "RelativeToolTip": "Pos.Model\\Models\\Rol.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T04:03:19.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "mappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Codigos\\Backend\\Pos.Service\\Mappings\\mappingProfile.cs",
+              "RelativeDocumentMoniker": "Pos.Service\\Mappings\\mappingProfile.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Codigos\\Backend\\Pos.Service\\Mappings\\mappingProfile.cs",
+              "RelativeToolTip": "Pos.Service\\Mappings\\mappingProfile.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA0wBIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T03:55:54.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RolController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Codigos\\Backend\\Pos.Api\\Controllers\\RolController.cs",
+              "RelativeDocumentMoniker": "Pos.Api\\Controllers\\RolController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Codigos\\Backend\\Pos.Api\\Controllers\\RolController.cs",
+              "RelativeToolTip": "Pos.Api\\Controllers\\RolController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T03:37:37.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Rol_Service.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Codigos\\Backend\\Pos.Service\\Service\\Rol_Service.cs",
+              "RelativeDocumentMoniker": "Pos.Service\\Service\\Rol_Service.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Codigos\\Backend\\Pos.Service\\Service\\Rol_Service.cs",
+              "RelativeToolTip": "Pos.Service\\Service\\Rol_Service.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T03:13:12.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IService.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Codigos\\Backend\\Pos.Service\\Interface\\IService.cs",
+              "RelativeDocumentMoniker": "Pos.Service\\Interface\\IService.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Codigos\\Backend\\Pos.Service\\Interface\\IService.cs",
+              "RelativeToolTip": "Pos.Service\\Interface\\IService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T03:08:45.915Z",
               "EditorCaption": ""
             }
           ]
