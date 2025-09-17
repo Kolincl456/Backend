@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HK8Cu+8FqFo=",
+  "dgSpecHash": "fS1ww4nTrb4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\USUARIO\\Desktop\\Codigos\\Backend\\Pos.Repository\\Pos.Repository.csproj",
+  "projectFilePath": "C:\\Users\\USUARIO\\Desktop\\Codigos\\Sistemas\\Backend\\Pos.Repository\\Pos.Repository.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.3.0\\microsoft.aspnetcore.authentication.2.3.0.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.3.0\\microsoft.aspnetcore.authentication.abstractions.2.3.0.nupkg.sha512",

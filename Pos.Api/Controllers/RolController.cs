@@ -25,7 +25,7 @@ namespace Pos.Api.Controllers
             try
             {
                 var entidad = await _rolService.GetAll();
-                var entidadDto = _mapper.Map<RolDto>(entidad);
+                var entidadDto = _mapper.Map<List<RolDto>>(entidad);
                 return Ok(entidadDto);
             }
             catch (Exception ex)

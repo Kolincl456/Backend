@@ -56,7 +56,7 @@ namespace Pos.Model.Context
                 .IsUnicode(false);
 
                 entity.HasOne(r => r.Rol)
-                .WithMany(u => u.Usuarios)
+                .WithMany(r => r.Usuarios)
                 .IsRequired()
                 .HasForeignKey(r => r.IdRol);
 
