@@ -79,7 +79,7 @@ namespace Pos.Api.Controllers
                     string campoDuplicado = "un valor único";
                     if (!string.IsNullOrEmpty(pgEx.ConstraintName))
                     {
-                        if (pgEx.ConstraintName.Contains("IX_Productos_CategoriaIdCategoria"))
+                        if (pgEx.ConstraintName.Contains("IX_Productos_CodigoBarra"))
                             campoDuplicado = "el código de barra";
                         else if (pgEx.ConstraintName.Contains("IX_Productos_Descripcion"))
                             campoDuplicado = "el nombre";
@@ -122,7 +122,7 @@ namespace Pos.Api.Controllers
                     string campoDuplicado = "un valor único";
                     if (!string.IsNullOrEmpty(pgEx.ConstraintName))
                     {
-                        if (pgEx.ConstraintName.Contains("IX_Productos_CategoriaIdCategoria"))
+                        if (pgEx.ConstraintName.Contains("IX_Productos_CodigoBarra"))
                             campoDuplicado = "el código de barra";
                         else if (pgEx.ConstraintName.Contains("IX_Productos_Descripcion"))
                             campoDuplicado = "el nombre";

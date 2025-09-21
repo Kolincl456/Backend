@@ -301,9 +301,6 @@ namespace Pos.Model.Migrations
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("IdUsuario"));
 
-                    b.Property<int>("AccessFailedCount")
-                        .HasColumnType("integer");
-
                     b.Property<string>("Apellidos")
                         .IsRequired()
                         .HasColumnType("text");

@@ -6,6 +6,7 @@ using Pos.Model.Context;
 using Pos.Model.Models;
 using Pos.Repository.Interface;
 using Pos.Repository.Repository;
+using Pos.Service.Interface;
 using Pos.Service.Service;
 using System.Reflection;
 
@@ -54,6 +55,7 @@ builder.Services.AddScoped<IVenta_Repository, Venta_Repository>();
 builder.Services.AddScoped<Rol_Service>();
 builder.Services.AddScoped<Categoria_Service>();
 builder.Services.AddScoped<Producto_Service>();
+builder.Services.AddScoped<IUsuario_Service, Usuario_Service>();
 
 //Activación de las CORS.
 builder.Services.AddCors(options =>
