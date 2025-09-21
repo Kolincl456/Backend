@@ -44,12 +44,16 @@ namespace Pos.Repository.Repository
 
         public async Task<List<Producto>> GetAll()
         {
-            return await _posContext.Productos.ToListAsync();
+            return await _posContext.Productos
+                .Include(p => p.Categoria)
+                .ToListAsync();
         }
 
         public async Task<Producto?> GetById(int id)
         {
-            return await _posContext.Productos.FindAsync(id);
+            return await _posContext.Productos
+                .Include(p => p.Categoria)
+                .FirstOrDefaultAsync(p => p.IdProducto == id);
         }
 
         public async Task<Producto> Update(Producto entity)
@@ -59,7 +63,9 @@ namespace Pos.Repository.Repository
                 throw new ArgumentNullException(nameof(entity));
             }
 
-            var ProductoExistente = await _posContext.Productos.FirstOrDefaultAsync(p => p.IdProducto == entity.IdProducto);
+            var ProductoExistente = await _posContext.Productos
+                .Include(p => p.Categoria)
+                .FirstOrDefaultAsync(p => p.IdProducto == entity.IdProducto);
             if (ProductoExistente == null)
             {
                 throw new KeyNotFoundException($"No se encontró el Producto con el ID: {entity.IdProducto}");

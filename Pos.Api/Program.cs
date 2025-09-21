@@ -52,6 +52,8 @@ builder.Services.AddScoped<IVenta_Repository, Venta_Repository>();
 
 //Registro de servicios con sus interfaces.
 builder.Services.AddScoped<Rol_Service>();
+builder.Services.AddScoped<Categoria_Service>();
+builder.Services.AddScoped<Producto_Service>();
 
 //Activación de las CORS.
 builder.Services.AddCors(options =>
