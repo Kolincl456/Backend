@@ -2,6 +2,7 @@ using FluentValidation;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
+using Pos.Api.Middlewares;
 using Pos.Model.Context;
 using Pos.Model.Models;
 using Pos.Repository.Interface;
@@ -39,6 +40,13 @@ builder.Services.AddIdentity<Usuario, IdentityRole<int>>().AddEntityFrameworkSto
 builder.Services.AddControllers();
 builder.Services.AddValidatorsFromAssembly(Assembly.Load("Pos.Dto"));
 
+//Configurar JWT
+var secretKey = builder.Configuration["Jwt:secretKey"];
+if (string.IsNullOrEmpty(secretKey))
+{
+    throw new InvalidOperationException("La clave secreta de JWT no está configurada");
+}
+
 // Registrar AutoMapper
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
@@ -58,6 +66,7 @@ builder.Services.AddScoped<Producto_Service>();
 builder.Services.AddScoped<IUsuario_Service, Usuario_Service>();
 builder.Services.AddScoped<IDocumento_Service, Documento_Service>();
 builder.Services.AddScoped<INegocio_Service, Negocio_Service>();
+builder.Services.AddScoped<IVenta_Service, Venta_Service>();
 
 //Activación de las CORS.
 builder.Services.AddCors(options =>
@@ -71,6 +80,10 @@ builder.Services.AddCors(options =>
 });
 
 var app = builder.Build();
+
+//Middleware de excepciones personalizadas
+
+app.UseMiddleware<ExceptionMiddleware>();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

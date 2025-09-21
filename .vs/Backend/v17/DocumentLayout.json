@@ -3,28 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\USUARIO\\Desktop\\Codigos\\Sistemas\\Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0AE80C50-5DB6-465D-897E-BB624EB03F15}|Pos.Api\\Pos.Api.csproj|c:\\users\\usuario\\desktop\\codigos\\sistemas\\backend\\pos.api\\controllers\\negociocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AE80C50-5DB6-465D-897E-BB624EB03F15}|Pos.Api\\Pos.Api.csproj|solutionrelative:pos.api\\controllers\\negociocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0AE80C50-5DB6-465D-897E-BB624EB03F15}|Pos.Api\\Pos.Api.csproj|c:\\users\\usuario\\desktop\\codigos\\sistemas\\backend\\pos.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0AE80C50-5DB6-465D-897E-BB624EB03F15}|Pos.Api\\Pos.Api.csproj|solutionrelative:pos.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C595F08-B28A-412A-9DC3-541CE77C3208}|Pos.Service\\Pos.Service.csproj|c:\\users\\usuario\\desktop\\codigos\\sistemas\\backend\\pos.service\\service\\negocio_service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C595F08-B28A-412A-9DC3-541CE77C3208}|Pos.Service\\Pos.Service.csproj|solutionrelative:pos.service\\service\\negocio_service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C595F08-B28A-412A-9DC3-541CE77C3208}|Pos.Service\\Pos.Service.csproj|c:\\users\\usuario\\desktop\\codigos\\sistemas\\backend\\pos.service\\service\\documento_service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C595F08-B28A-412A-9DC3-541CE77C3208}|Pos.Service\\Pos.Service.csproj|solutionrelative:pos.service\\service\\documento_service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C595F08-B28A-412A-9DC3-541CE77C3208}|Pos.Service\\Pos.Service.csproj|c:\\users\\usuario\\desktop\\codigos\\sistemas\\backend\\pos.service\\interface\\inegocio_service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C595F08-B28A-412A-9DC3-541CE77C3208}|Pos.Service\\Pos.Service.csproj|solutionrelative:pos.service\\interface\\inegocio_service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C595F08-B28A-412A-9DC3-541CE77C3208}|Pos.Service\\Pos.Service.csproj|c:\\users\\usuario\\desktop\\codigos\\sistemas\\backend\\pos.service\\interface\\idocumento_service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C595F08-B28A-412A-9DC3-541CE77C3208}|Pos.Service\\Pos.Service.csproj|solutionrelative:pos.service\\interface\\idocumento_service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0AE80C50-5DB6-465D-897E-BB624EB03F15}|Pos.Api\\Pos.Api.csproj|c:\\users\\usuario\\desktop\\codigos\\sistemas\\backend\\pos.api\\middlewares\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AE80C50-5DB6-465D-897E-BB624EB03F15}|Pos.Api\\Pos.Api.csproj|solutionrelative:pos.api\\middlewares\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,79 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Codigos\\Sistemas\\Backend\\Pos.Api\\Program.cs",
-              "RelativeDocumentMoniker": "Pos.Api\\Program.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Codigos\\Sistemas\\Backend\\Pos.Api\\Program.cs",
-              "RelativeToolTip": "Pos.Api\\Program.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAADsAAAA0AAAAAAAAAA==",
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Codigos\\Sistemas\\Backend\\Pos.Api\\Middlewares\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "Pos.Api\\Middlewares\\ExceptionMiddleware.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Codigos\\Sistemas\\Backend\\Pos.Api\\Middlewares\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "Pos.Api\\Middlewares\\ExceptionMiddleware.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAD4AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T18:39:43.373Z",
+              "WhenOpened": "2025-09-21T19:37:47.439Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "NegocioController.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Codigos\\Sistemas\\Backend\\Pos.Api\\Controllers\\NegocioController.cs",
-              "RelativeDocumentMoniker": "Pos.Api\\Controllers\\NegocioController.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Codigos\\Sistemas\\Backend\\Pos.Api\\Controllers\\NegocioController.cs",
-              "RelativeToolTip": "Pos.Api\\Controllers\\NegocioController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAADwvyMAAAAtAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Codigos\\Sistemas\\Backend\\Pos.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Pos.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Codigos\\Sistemas\\Backend\\Pos.Api\\Program.cs",
+              "RelativeToolTip": "Pos.Api\\Program.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAYwFUAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T18:33:48.115Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Negocio_Service.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Codigos\\Sistemas\\Backend\\Pos.Service\\Service\\Negocio_Service.cs",
-              "RelativeDocumentMoniker": "Pos.Service\\Service\\Negocio_Service.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Codigos\\Sistemas\\Backend\\Pos.Service\\Service\\Negocio_Service.cs",
-              "RelativeToolTip": "Pos.Service\\Service\\Negocio_Service.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAADwvyoAAABQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T18:29:18.077Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "INegocio_Service.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Codigos\\Sistemas\\Backend\\Pos.Service\\Interface\\INegocio_Service.cs",
-              "RelativeDocumentMoniker": "Pos.Service\\Interface\\INegocio_Service.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Codigos\\Sistemas\\Backend\\Pos.Service\\Interface\\INegocio_Service.cs",
-              "RelativeToolTip": "Pos.Service\\Interface\\INegocio_Service.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T18:28:13.865Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Documento_Service.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Codigos\\Sistemas\\Backend\\Pos.Service\\Service\\Documento_Service.cs",
-              "RelativeDocumentMoniker": "Pos.Service\\Service\\Documento_Service.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Codigos\\Sistemas\\Backend\\Pos.Service\\Service\\Documento_Service.cs",
-              "RelativeToolTip": "Pos.Service\\Service\\Documento_Service.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAkwB8AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T18:16:38.737Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IDocumento_Service.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Codigos\\Sistemas\\Backend\\Pos.Service\\Interface\\IDocumento_Service.cs",
-              "RelativeDocumentMoniker": "Pos.Service\\Interface\\IDocumento_Service.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Codigos\\Sistemas\\Backend\\Pos.Service\\Interface\\IDocumento_Service.cs",
-              "RelativeToolTip": "Pos.Service\\Interface\\IDocumento_Service.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T18:13:28.631Z",
+              "WhenOpened": "2025-09-21T18:39:43.373Z",
               "EditorCaption": ""
             }
           ]
