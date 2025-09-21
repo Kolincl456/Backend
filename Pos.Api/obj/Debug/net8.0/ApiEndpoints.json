@@ -99,6 +99,62 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Pos.Api.Controllers.DocumentoController",
+    "Method": "Get",
+    "RelativePath": "api/documento",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Pos.Model.Models.NumeroDocumento, Pos.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Pos.Api.Controllers.NegocioController",
+    "Method": "Get",
+    "RelativePath": "api/negocio",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Pos.Dto.Dto.NegocioDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Pos.Api.Controllers.NegocioController",
+    "Method": "Create",
+    "RelativePath": "api/negocio",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "negocioDto",
+        "Type": "Pos.Dto.Dto.NegocioDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Pos.Api.Controllers.ProductoController",
     "Method": "GetAll",
     "RelativePath": "api/productos",

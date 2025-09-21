@@ -56,6 +56,8 @@ builder.Services.AddScoped<Rol_Service>();
 builder.Services.AddScoped<Categoria_Service>();
 builder.Services.AddScoped<Producto_Service>();
 builder.Services.AddScoped<IUsuario_Service, Usuario_Service>();
+builder.Services.AddScoped<IDocumento_Service, Documento_Service>();
+builder.Services.AddScoped<INegocio_Service, Negocio_Service>();
 
 //Activación de las CORS.
 builder.Services.AddCors(options =>
